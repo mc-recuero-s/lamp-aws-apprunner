@@ -1,17 +1,14 @@
 FROM php:8.2-apache
+ARG DEBIAN_FRONTEND=noninteractive
 
-# Instala Composer
-COPY --from=composer:2 /usr/bin/composer /usr/bin/composer
-
-# Copia composer.json y composer.lock primero (para aprovechar el cache)
-COPY public/composer.json /var/www/html/composer.json
-# Si tienes composer.lock, descomenta la siguiente línea
-COPY public/composer.lock /var/www/html/composer.lock
+RUN docker-php-ext-install mysqli
+RUN apt update \
+    && apt install libzip-dev zlib1g-dev -y \
+    && rm -rf /var/lib/apt/lists/* \
+    && docker-php-ext-install zip
+RUN a2enmod rewrite
 
 WORKDIR /var/www/html
-
-# Instala dependencias de Composer
-RUN composer install --no-dev --no-interaction --prefer-dist
 
 # Copia el resto del código fuente
 COPY public/ /var/www/html/
