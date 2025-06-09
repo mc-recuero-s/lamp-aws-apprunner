@@ -1,0 +1,45 @@
+body .titulo h2 {
+    color: #64a405;
+    font-weight: bold;
+    font-size: 30px;
+}
+body .info {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    margin: 0 1%;
+    padding: 0 1%;
+    justify-content: flex-start;
+    height: 100%;
+    position: relative;
+    background: rgba(75, 128, 95, 0.1);
+    height: 85px;
+  }
+
+.divPadre{
+    max-width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: blue;
+}
+
+.divHijo{
+
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+.divForm{
+align-items: center;
+}
+
+
+.centrado{
+	text-align: center;
+}
+.centrado>div {display:inline-block;}
+.centrado form {text-align:right;}
+
+

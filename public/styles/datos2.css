@@ -1,0 +1,515 @@
+body .content-lote {
+  position: relative;
+}
+body .titulo {
+  width: 100%;
+  min-width: 120px;
+}
+.hide{
+  display: none !important 
+}
+body .titulo h2 {
+  color: #64a405;
+  font-weight: bold;
+  font-size: 30px;
+}
+body .info {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: center;
+  margin: 0 1%;
+  padding: 0 1%;
+  justify-content: flex-start;
+  height: 100%;
+  position: relative;
+  background: rgba(75, 128, 95, 0.1);
+  height: 85px;
+}
+body .btns {
+  justify-content: flex-start;
+}
+body .edit:after {
+  content: "";
+}
+body .delete:after {
+  content: "";
+}
+body .duplicate:after {
+  content: "";
+}
+body .save:after, body .saveProducto:after, body .saveBenefactor:after, body .saveBeneficiado:after {
+  content: "";
+}
+body .crear:after {
+  content: "";
+}
+body .limpiar:after {
+  content: "";
+}
+body .subir:after {
+  content: "";
+}
+body .imprimir:after {
+  content: "";
+}
+body .content {
+  display: flex;
+  flex-wrap: nowrap;
+  align-items: flex-start;
+  padding: 0 0 0 3%
+}
+body .content .nav {
+  display: flex;
+  flex-wrap: wrap;
+  width: 25%;
+  padding-top: 2%
+}
+body .content .nav li{
+  padding: 10px 5px;
+  cursor: pointer;
+  width: 100%;
+  font-size: 13px
+}
+body .content .nav li h3, body .content .nav li h4{
+  font-size: 13px;
+  height: 14px
+}
+body .content .nav li h4{
+  margin-left: 20px
+}
+body .content .nav li.active ,body .content .nav li:hover{
+  background: rgba(75, 128, 95, 0.1);
+}
+body .listas {
+  margin: 0;
+  width: 100%;
+  overflow: scroll;
+  overflow-x: hidden;  
+}
+body .listas label {
+  text-align: left;
+}
+body .listas .groupForm {
+  max-width: initial;
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+}
+body .listas .beneficiados h5 {
+  width: 20%;
+}
+body .listas .benefactores h4 {
+  width: 40%;
+}
+body .listas .benefactores h5 {
+  width: 20%;
+}
+body .listas .benefactores input {
+  width: 100%;
+  text-transform: uppercase  
+}
+body .listas h3 {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: center;
+  height: 50px;
+  cursor: pointer;
+  border: 1px solid #d48404;
+  cursor: pointer;
+  user-select: none;
+}
+body .listas h3::selection {
+  color: none;
+  background: none;
+}
+
+body .listas h3::-moz-selection {
+  color: none;
+  background: none
+}
+
+body .listas h3.activeTipo {
+  background: #d48404;
+  color: white;
+}
+body .listas ul {
+  margin: 0;
+}
+body .listas > section {
+  display: none;
+  padding-top: 2%
+}
+body .listas > section > header{  
+    display: flex;
+    justify-content: flex-start;
+    margin: 30px 0
+}
+body .listas > section h4{
+  text-align: center;
+  width: 100%;
+  margin-bottom: 20px
+}
+
+body .listas > section:first-child {
+  display: block
+}
+body .listas ul li, body .listas ul .nuevo {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: center;
+  /* height: 30px; */
+  margin: 10px 0;
+  cursor: default;
+}
+body .listas ul .nuevo .normalEdit {
+  display: flex;
+}
+body .listas ul h4 {
+  margin: 0 10px;
+  width: 50%;
+  text-align: right;
+}
+body .listas .recibidoSalida ul h4, body .listas .recibidoEntrada ul h4 {
+  width: 40%
+}
+body .listas .recibidoSalida ul h5, body .listas .recibidoEntrada ul h5 {
+  width: 40%
+}
+body .listas ul h4 label {
+  text-align: right;
+}
+body .listas ul h4 input {
+  max-width: 180px;
+  text-align: right;
+  text-transform: uppercase
+}
+body .listas ul h5 {
+  margin: 0 10px;
+  width: 10%;
+  text-align: center;
+}
+body .listas ul h6 {
+  margin: 0 10px;
+  width: 10%;
+  text-align: center;
+  font-size: 13px;
+}
+body .listas ul p {
+  margin: 0 10px;
+  width: 10%;
+  text-align: center;
+}
+body .listas .beneficiados ul h4 {
+  width: 30%;
+}
+body .listas .beneficiados ul h5 {
+  width: 15%;
+}
+body .listas .beneficiados ul h6 {
+  width: 15%;
+}
+body .listas .beneficiados ul p {
+  width: 40%;
+  text-align: left;
+  font-size: 13px;
+}
+body .listas ul .normal {
+  width: 100%;
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: center;
+  justify-content: flex-start;
+}
+body .listas ul .btns {
+  width: 20%;
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: center;
+  justify-content: flex-start;
+}
+body .listas ul .normalEdit {
+  width: 100%;
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: center;
+  justify-content: flex-start;
+  display: none;
+}
+body .listas ul input {
+  max-width: 100%;
+  text-transform: uppercase
+}
+body .listas ul span {
+  display: none;
+  }
+  
+  body .listas > section {
+  display: none;
+  padding-top: 2%
+}
+body .listas > section > section {  
+}
+
+body .listas > section > section > div {
+  display: flex;
+  margin-bottom: 10px;
+}
+body .listas > section > section > div > div {
+  margin: 0 5%;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+}
+body .listas > section > section > div > div label {
+  width: 100%;
+  font-size: 0.8em;
+  color: #F58634;
+  margin-bottom: 2px
+}
+body .listas > section > section > div > div input,
+body .listas > section > section > div > div select {
+  width: 100%;
+  padding-left: 10px;
+  height: 30px;
+}
+body .listas > section > section > div > div input::placeholder {
+  opacity: 0.5;
+}
+body .listas > section > section > section > div {
+  display: flex;
+  margin-bottom: 10px;
+}
+body .listas > section > section > section > div > div {
+  margin: 0 5%;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+}
+body .listas > section > section > section > div > div label {
+  width: 100%;
+  font-size: 0.8em;
+  color: #F58634;
+  margin-bottom: 2px
+}
+body .listas > section > section > section > div > div input,
+body .listas > section > section > section > div > div select {
+  width: 100%;
+  padding-left: 10px;
+  height: 30px;
+}
+body .listas > section > section > section > div > div input::placeholder {
+  opacity: 0.5;
+}
+
+body .listas > section > footer  {
+  margin: 40px 0;  
+  width: 95%;  
+}
+
+footer {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: center;
+  justify-content: flex-end;
+  margin: 10px 2%;
+}
+footer img {
+  margin-right: 10px;
+  max-width: 100px;
+  max-height: 30px;
+}
+footer p {
+  color: #F58634;
+  font-size: 12px;
+}
+
+*, *:before, *:after {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-size: 1rem;
+  font-weight: normal;
+  line-height: 1.5;
+  color: #444444;
+  background: #ffffff;
+}
+
+.container {
+  max-width: 75rem;
+  width: 100%;
+  padding: 0 2rem;
+  margin: 0 auto;
+}
+
+.wrapper {
+  max-width: 40rem;
+  padding: 2rem;
+  margin: 4rem auto;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+  border-radius: 4px;
+}
+
+.form-group {
+  padding: 1rem 0;
+}
+.form-group .input-field {
+  font-family: inherit;
+  font-size: inherit;
+  line-height: inherit;
+  width: 100%;
+  height: auto;
+  padding: 1rem 1.5rem;
+  cursor: pointer;
+  background: #ffffff;
+  border: none;
+  outline: none;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+  border-radius: 2px;
+}
+
+.ui-datepicker {
+  display: none;
+  width: 20rem;
+  background: #ffffff;
+  border-radius: 0.25rem;
+  box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.2);
+  margin-top: 1rem;
+}
+.ui-datepicker-header {
+  text-align: center;
+  padding: 1rem 0;
+  text-transform: uppercase;
+  letter-spacing: 0.1rem;
+}
+.ui-datepicker-header a span {
+  display: none;
+}
+.ui-datepicker-header a.ui-corner-all {
+  cursor: pointer;
+  position: absolute;
+  top: 0;
+  width: 2rem;
+  height: 2rem;
+  margin: 0.5rem;
+  border-radius: 0.5rem;
+}
+.ui-datepicker-header a.ui-datepicker-prev {
+  left: 0;
+}
+.ui-datepicker-header a.ui-datepicker-prev::after {
+  font-family: "Material Icons";
+  content: "";
+  font-size: 1.5rem;
+  color: #444444;
+}
+.ui-datepicker-header a.ui-datepicker-next {
+  right: 0;
+}
+.ui-datepicker-header a.ui-datepicker-next::after {
+  font-family: "Material Icons";
+  content: "";
+  font-size: 1.5rem;
+  color: #444444;
+}
+.ui-datepicker-calendar {
+  width: 100%;
+  text-align: center;
+  padding: 1rem;
+}
+.ui-datepicker-calendar thead {
+  color: #cccccc;
+}
+.ui-datepicker-calendar a {
+  color: #444444;
+  text-decoration: none;
+  display: block;
+  margin: 0 auto;
+  width: 35px;
+  height: 35px;
+  line-height: 35px;
+  border-radius: 50%;
+  border: 1px solid transparent;
+  cursor: pointer;
+}
+.ui-datepicker-calendar a:hover {
+  border: 1px solid #cccccc;
+}
+.ui-datepicker-calendar .ui-state-highlight {
+  border-color: #64a405;
+  color: #64a405;
+}
+.ui-datepicker-calendar .ui-state-active {
+  background: #64a405;
+  color: #ffffff;
+}
+
+.table-content{
+
+}
+
+.table-content .button,
+body .listas > section > header > .button{
+  display: initial;
+  padding: 6px 6px;
+  margin: 2px
+}
+
+.table-content .button,
+body .listas > section > header > .button a{
+  color: white;
+  text-decoration: none
+}
+
+
+.btn-ver::after{
+  content: "\f06e";
+  color: white;
+  margin-left: 2px;
+  font-family: "FontAwesome";    
+}
+.btn-editar{
+  background: #216721;
+  border-color: #216721
+}
+
+.btn-editar::after{
+  content: "\f044";
+  color: white;
+  margin-left: 2px;
+  font-family: "FontAwesome";    
+}
+
+.btn-delete{
+  background: #DB4D35;
+  border-color: #DB4D35
+}
+
+.btn-delete::after{
+  content: "\f1f8";
+  color: white;
+  margin-left: 2px;
+  font-family: "FontAwesome";    
+}
+
+.nombre input,
+.codigo input{
+  text-transform: uppercase
+}
+
+.nombre input:placeholder,
+.codigo input:placeholder{
+  text-transform: normal
+}

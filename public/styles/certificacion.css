@@ -1,0 +1,529 @@
+.certificacion {
+  width: 90%;
+  position: relative;
+  margin: auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center
+}
+.certificacion &>section {
+  position: relative;
+  margin: auto;
+  display: block
+}
+.certificacion .certificacion-1 {
+  max-width: 900px;
+  width:100%
+}
+.certificacion .certificacion-2 {
+  width: 100%
+}
+.certificacion > header {
+  display: flex;
+  flex-wrap: wrap;
+}
+.certificacion > header h2 {
+  color: #d48404;
+  text-transform: uppercase;
+  font-size: 1.8em;
+  text-align: center;
+  margin: 10px 0;
+  width: 100%;
+  font-weight: bold
+}
+.certificacion > header h3 {
+  color: #d48404;
+  font-size: 1.3em;
+  text-align: center;
+  width: 100%;
+  margin: 5px 0;
+}
+.certificacion > header p {
+  color: #d48404;
+  font-size: 1em;
+  text-align: left;
+  width: 100%;
+  margin: 5px 0;
+}
+.certificacion > section article {
+  border-bottom: 1px solid #F58634;
+  padding-bottom: 30px;
+}
+.certificacion > section article h4 {
+  color: #F58634;
+  font-size: 1.5em;
+  margin: 10px 0;
+}
+.certificacion > section article > div {
+  display: flex;
+  margin-bottom: 10px;
+}
+.certificacion > section article > div > div {
+  margin: 0 5%;
+  width: 45%;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.certificacion > section article > div > div.benefactor {
+  width: 95%;
+}
+
+.certificacion > section article > div > div label {
+  width: 100%;
+  font-size: 0.8em;
+  color: #F58634;
+  margin-bottom: 2px
+}
+.certificacion > section article > div > div input,
+.certificacion > section article > div > div select {
+  width: 100%;
+  padding-left: 10px;
+  height: 30px;
+}
+.certificacion > section article > div > div input::placeholder {
+  opacity: 0.5;
+}
+.certificacion > section article > section > div {
+  display: flex;
+  margin-bottom: 10px;
+  width: 1005
+}
+.certificacion > section article > section > div > div {
+  margin: 0 5%;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+}
+.certificacion > section article > section > div > div label {
+  width: 100%;
+  font-size: 0.8em;
+  color: #F58634;
+  margin-bottom: 2px
+}
+.certificacion > section article > section > div > div input,
+.certificacion > section article > section > div > div select {
+  width: 100%;
+  padding-left: 10px;
+  height: 30px;
+}
+.certificacion > section article > section > div > div input::placeholder {
+  opacity: 0.5;
+}
+.certificacion > section > footer  {
+  margin: 20px 0;
+  margin-bottom: 70px;
+  width: 100%;
+  max-width: 900px
+}
+
+.certificacion .certificacion-2 .button{
+  display: initial;
+  padding: 6px 6px;
+  margin: 2px
+}
+
+.certificacion .selectize-control{
+  padding-left: 0
+}
+
+.certificacion .benefactor-info{
+  display: none;
+}
+.certificacion .benefactor-info2{
+  display: none;
+  flex-wrap: wrap;
+  }
+  .certificacion .benefactor-info2 > section{
+    width: 100%
+    }
+    .certificacion .benefactor-info3{
+  padding: 2% 0;
+  flex-wrap: wrap;
+  border: none;
+  padding-left: 5%
+}
+.certificacion .benefactor-info3 p{
+  text-align: left;
+  width: 100%;
+  font-size: 18px;
+  font-family: "Lato", 'Tahoma', 'Verdana';
+  color: #d48404;
+  font-weight: bold
+}
+
+.btn-ver{
+  position: relative
+}
+
+.btn-ver .article-info{
+  width: 680px;
+  right: 40px
+}
+
+.btn-ver:hover .article-info{
+  display: block
+}
+.btn-ver:hover .article-info .article-info-data{
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 10px
+}
+.btn-ver:hover .article-info .article-info-data h5,
+.btn-ver:hover .article-info ul li h5{
+  width: 100%;
+  font-size: 12px;
+  color: black
+}
+
+.btn-ver:hover > .article-info{
+  display:  block
+}
+
+.btn-ver::after{
+  content: "\f06e";
+  color: white;
+  margin-left: 2px;
+  font-family: "FontAwesome";
+}
+.btn-aprobar{
+  background: #216721;
+  border-color: #216721
+}
+
+.btn-aprobar::after{
+  content: "\f00c";
+  color: white;
+  margin-left: 2px;
+  font-family: "FontAwesome";
+}
+
+.btn-rechazar{
+  background: #DB4D35;
+  border-color: #DB4D35
+}
+
+.btn-rechazar::after{
+  content: "\f071";
+  color: white;
+  margin-left: 2px;
+  font-family: "FontAwesome";
+}
+
+.btn-soporte::after{
+  content: "\f15c";
+  color: white;
+  margin-left: 2px;
+  font-family: "FontAwesome";
+}
+
+.btn-informe::after{
+  content: "\f15c";
+  color: white;
+  margin-left: 2px;
+  font-family: "FontAwesome";
+}
+
+.btn-informe2{
+  background: #0d6efd
+}
+
+.btn-informe2::after{
+  content: "\f15c";
+  color: white;
+  margin-left: 2px;
+  font-family: "FontAwesome";
+}
+
+.btn-recibo{
+  background: #E0871E;
+  border: 1px solid #E0871E
+}
+
+.btn-recibo::after{
+  content: "\f573";
+  color: white;
+  margin-left: 2px;
+  font-family: "FontAwesome";
+}
+
+.btn-firmado{
+  background: #239B23;
+  border: 1px solid #239B23
+}
+
+.btn-firmado::after{
+  content: "\f56f";
+  color: white;
+  margin-left: 2px;
+  font-family: "FontAwesome";
+}
+
+.btn-editar{
+  background: #216721;
+  border-color: #216721
+}
+
+.btn-editar::after{
+  content: "\f044";
+  color: white;
+  margin-left: 2px;
+  font-family: "FontAwesome";
+}
+
+.btn-delete{
+  background: #DB4D35;
+  border-color: #DB4D35
+}
+
+.btn-delete::after{
+  content: "\f1f8";
+  color: white;
+  margin-left: 2px;
+  font-family: "FontAwesome";
+}
+
+.btn-alert{
+  background: #DB4D35;
+  border-color: #DB4D35
+}
+
+.btn-alert::after{
+  content: "\f06a";
+  color: white;
+  margin-left: 2px;
+  font-family: "FontAwesome";
+}
+
+.btn-enviar{
+  background: #37b2e5;
+  border-color: #37b2e5
+}
+
+.btn-enviar::after{
+  content: "\f1d8";
+  color: white;
+  margin-left: 2px;
+  font-family: "FontAwesome";
+}
+
+.certificacion .certificacion-2 .btn-hide,
+.certificacion .certificacion-2 .btn-hide2{
+  background: white;
+  border: 1px dashed #d48404;
+  position: relative;
+  width: 30px;
+  display: inline-flex;
+  overflow: hidden
+}
+
+.certificacion .certificacion-2 .btn-hide2{
+  border: 1px dashed #0d6efd;
+}
+
+.btn-hide input{
+  position: absolute;
+  right: 0;
+  top: 0;
+  height: 100%;
+  opacity: 0;
+  cursor: pointer
+}
+
+.btn-hide::after{
+  content: "\f15c";
+  color: #d48404;
+  margin-left: 2px;
+  font-family: "FontAwesome";
+}
+
+.btn-add{
+  background: #0d6efd;
+  border-color: #0d6efd
+}
+
+.btn-add::after{
+  content: "\2b";
+  color: white;
+  margin-left: 2px;
+  font-family: "FontAwesome";
+}
+
+.btn-remove{
+  background: #DB4D35;
+  border-color: #DB4D35
+}
+
+.btn-remove::after{
+  content: "\f1f8";
+  color: white;
+  margin-left: 2px;
+  font-family: "FontAwesome";
+}
+
+.btn-hide2::after{
+  content: "\f0ae";
+  color: #0d6efd;
+  margin-left: 2px;
+  font-family: "FontAwesome";
+}
+
+.btn-entradas{
+  background: #0d6efd;
+  border-color: #0d6efd;
+}
+
+.btn-entradas::after{
+  content: "\f0ae";
+  color: white;
+  margin-left: 2px;
+  font-family: "FontAwesome";
+}
+
+.certificacion .certificacion-2 .btn-hide2{
+  overflow: initial
+}
+
+.btn-cargar-entradas{
+  position: relative
+}
+
+.btn-cargar-entradas .article-info > h2{
+  color: black;
+  font-size: 22px;
+  display: none
+}
+
+.btn-cargar-entradas .article-info > h3{
+  color: black;
+  font-size: 16px;
+}
+
+.btn-cargar-entradas .article-info{
+  width: 400px;
+  right: 40px;
+}
+
+.btn-cargar-entradas .article-info > article{
+  display: flex;
+  width: 100%
+}
+
+.btn-cargar-entradas .article-info > section{
+
+}
+
+.btn-cargar-entradas:hover .article-info{
+  display: block
+}
+.btn-cargar-entradas:hover .article-info .article-info-data{
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 10px;
+  width: 100%
+}
+
+.btn-cargar-entradas:hover .article-info .article-info-data input{
+  width: 100%;
+  height: 30px
+}
+.btn-cargar-entradas:hover .article-info .article-info-data >article{
+  width: 100%;
+}
+
+.btn-cargar-entradas:hover .article-info .article-info-data h5,
+.btn-cargar-entradas:hover .article-info > section ul li h5{
+  width: 100%;
+  font-size: 12px;
+  color: black
+}
+
+.btn-cargar-entradas:hover .article-info ul{
+  padding: 0;
+  margin: 0
+}
+
+.btn-cargar-entradas:hover .article-info .entradas-list .btn-add{
+  display: none
+}
+.btn-cargar-entradas:hover .article-info .search-list .btn-remove{
+  display: none
+}
+
+.btn-cargar-entradas:hover .article-info .entradas-list {
+  max-height: 35vh;
+  overflow-y: auto
+}
+.btn-cargar-entradas:hover .article-info .search-list{
+    overflow-y: auto;
+    max-height: 35vh
+}
+
+.btn-cargar-entradas .article-info ul .button{
+  padding: 0 14px;
+}
+
+.btn-cargar-entradas:hover .article-info ul li{
+  display: flex
+}
+
+.btn-cargar-entradas:hover > .article-info{
+  display:  block
+}
+
+.filtros{
+  margin: 30px 0;
+  width: 90%;
+  display: flex;
+  justify-content: center;
+  flex-wrap: nowrap;
+  padding-bottom: 20px;
+  height: 70px;
+}
+.filtros .filtros-fecha{
+  width: 100%;
+  display: flex;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  align-items: flex-end;
+}
+.filtros .filtros-fecha label{
+  font-size: 12px;
+  color: #F58634;
+  position: relative;
+  text-align: left;
+  width: 100%
+}
+.filtros .filtros-fecha .fecha{
+  width: 80%;
+  max-width: 300px;
+  border-radius: 6px;
+  height: 25px;
+  border: 1px solid #d48404
+}
+.filtros .filtros-select{
+  width: 50%;
+  display: flex;
+  justify-content: flex-end;
+  flex-wrap: nowrap;
+}
+.filtros .filtros-select > div{
+  display: flex;
+  justify-content: center;
+  flex-wrap: nowrap;
+  margin: 0 10px;
+  align-items: flex-end;
+}
+.filtros .filtros-select > div label{
+    margin-left: 5px;
+    height: 20px
+}
+
+.certificado-info {}
+.certificado-info > p{
+  font-size: 20px;
+}
+.certificado-info .swal2-input{
+  height: 35px;
+  margin: 5px 0 20px 0;
+}

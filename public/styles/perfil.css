@@ -1,0 +1,92 @@
+body .btns {
+    justify-content: flex-start;
+}
+body .groupForm {
+  font-family: "Material Icons";
+  content: "";
+  font-size: 1.5rem;
+  color: #444444;
+  display:inline-block;
+}
+
+/* .editarPerfil {
+}
+   */
+
+.perfil{
+  min-height: calc(100vh - 210px)
+}
+
+body h3{
+}
+body section{
+  width: 100%;
+  overflow: hidden;
+}
+
+body .nombre{
+}
+
+body .actualizar{
+  top:150px;
+
+}
+
+body .imgPer{
+  width: 130px;
+  height: 130px;
+  margin-right: 10px
+}
+
+body .editarPerfil{
+  display: flex;
+    justify-content: center;
+  align-items: center;
+    justify-content: flex-start;
+  flex-wrap: wrap;
+  margin-left: 40px
+
+}
+body .editarPerfil > div{
+  width: 100%
+}
+.perfil {
+  padding-left: 5%;
+  margin-top: 40px;
+}
+.perfil .b1{
+  display: flex;
+    justify-content: center;
+  align-items: flex-start;
+  justify-content: flex-start;
+  margin-top: 20px;
+}
+.perfil> div{
+  display: flex;
+    justify-content: center;
+  align-items: center;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+}
+.perfil> div > div{
+  width: 100%
+}
+body .nombr{
+}
+
+body .apellid{
+}
+
+body .corre{
+}
+
+body .usuari{
+  top: 15px;
+}
+
+body .contrasen{
+  top: 70px;
+}
+
+footer {
+}

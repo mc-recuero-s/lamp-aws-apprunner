@@ -1,0 +1,25 @@
+{
+    "ubuntu": {
+        "normal": "ubuntu_normal_a9b4465f75f1e035e352908784fee311"
+    },
+    "open sans": {
+        "normal": "C:\\xampp\\htdocs\\saciar\\controllers\\certificacion\\dompdf\\vendor\\dompdf\\dompdf\/lib\/fonts\/open_sans_normal_3760d4dc48428d77234c57aacbf4be3d",
+        "800": "open_sans_800_da8832a9546e2fae7cc865fab9ab6837"
+    },
+    "font awesome\\ 5 brands": {
+        "normal": "font_awesome__5_brands_normal_50caa50ffc72a7d113d314045beff1ea"
+    },
+    "font awesome\\ 5 free": {
+        "normal": "C:\\xampp\\htdocs\\saciar\\controllers\\certificacion\\dompdf\\vendor\\dompdf\\dompdf\/lib\/fonts\/font_awesome__5_free_normal_fa25e38b81c9eee14c621b3752550795",
+        "900": "font_awesome__5_free_900_478027b2e0b3751b1f46878e95517cae"
+    },
+    "lato": {
+        "italic": "C:\\xampp\\htdocs\\saciar\\controllers\\certificacion\\dompdf\\vendor\\dompdf\\dompdf\/lib\/fonts\/lato_italic_ab730068121a06d4cc0851e42a75c724",
+        "normal": "C:\\xampp\\htdocs\\saciar\\controllers\\certificacion\\dompdf\\vendor\\dompdf\\dompdf\/lib\/fonts\/lato_normal_1e76f4095824347c5952fde032e6e608",
+        "bold": "lato_bold_86e1573850012e2276a75106baf0c899"
+    },
+    "inconsolata": {
+        "normal": "C:\\xampp\\htdocs\\saciar\\controllers\\certificacion\\dompdf\\vendor\\dompdf\\dompdf\/lib\/fonts\/inconsolata_normal_ce7dbc1688331dcf4b4b18f4ad3d1427",
+        "bold": "inconsolata_bold_1bf31ceeb3e23c0df158e5e39ad60dbe"
+    }
+}

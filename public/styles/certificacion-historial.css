@@ -1,0 +1,227 @@
+.certificacion {
+  width: 90%;  
+  position: relative;
+  margin: auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center
+}
+.certificacion &>section {
+  position: relative;
+  margin: auto;
+  display: block
+}
+.certificacion .certificacion-1 {
+  max-width: 900px;  
+  width:100%
+}
+.certificacion .certificacion-2 {
+  width: 100%
+}
+.certificacion > header {
+  display: flex;
+  flex-wrap: wrap;
+}
+.certificacion > header h2 {
+  color: #d48404;
+  text-transform: uppercase;
+  font-size: 1.8em;
+  text-align: center;
+  margin: 10px 0;
+  width: 100%;
+  font-weight: bold
+}
+.certificacion > header h3 {
+  color: #d48404;
+  font-size: 1em;
+  text-align: left;
+  width: 100%;
+  margin: 5px 0;
+}
+.certificacion > header p {
+  color: #d48404;
+  font-size: 1em;
+  text-align: left;
+  width: 100%;
+  margin: 5px 0;
+}
+.certificacion > section article {
+  border-bottom: 1px solid #F58634;
+  padding-bottom: 30px;
+}
+.certificacion > section article h4 {
+  color: #F58634;
+  font-size: 1.5em;
+  margin: 10px 0;
+}
+.certificacion > section article > div {
+  display: flex;
+  margin-bottom: 10px;
+}
+.certificacion > section article > div > div {
+  margin: 0 5%;
+  width: 45%;
+  display: flex;
+  flex-wrap: wrap;
+}
+.certificacion > section article > div > div label {
+  width: 100%;
+  font-size: 0.8em;
+  color: #F58634;
+  margin-bottom: 2px
+}
+.certificacion > section article > div > div input,
+.certificacion > section article > div > div select {
+  width: 100%;
+  padding-left: 10px;
+  height: 30px;
+}
+.certificacion > section article > div > div input::placeholder {
+  opacity: 0.5;
+}
+.certificacion > section article > section > div {
+  display: flex;
+  margin-bottom: 10px;
+  width: 1005
+}
+.certificacion > section article > section > div > div {
+  margin: 0 5%;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+}
+.certificacion > section article > section > div > div label {
+  width: 100%;
+  font-size: 0.8em;
+  color: #F58634;
+  margin-bottom: 2px
+}
+.certificacion > section article > section > div > div input,
+.certificacion > section article > section > div > div select {
+  width: 100%;
+  padding-left: 10px;
+  height: 30px;
+}
+.certificacion > section article > section > div > div input::placeholder {
+  opacity: 0.5;
+}
+.certificacion > section > footer  {
+  margin: 20px 0;
+  margin-bottom: 70px;
+  width: 100%;
+  max-width: 900px
+}
+
+.certificacion .certificacion-2 .button{
+  display: initial;
+  padding: 6px 6px;
+  margin: 2px
+}
+
+.certificacion .selectize-control{
+  padding-left: 0
+}
+
+.certificacion .benefactor-info{
+  display: none;  
+}
+.certificacion .benefactor-info2{
+  display: none;
+  flex-wrap: wrap
+  }
+.certificacion .benefactor-info2 > section{
+  width: 100%
+}
+
+.btn-ver::after{
+  content: "\f06e";
+  color: white;
+  margin-left: 2px;
+  font-family: "FontAwesome";    
+}
+.btn-aprobar{
+  background: #216721;
+  border-color: #216721
+}
+
+.btn-aprobar::after{
+  content: "\f00c";
+  color: white;
+  margin-left: 2px;
+  font-family: "FontAwesome";    
+}
+
+.btn-rechazar{
+  background: #DB4D35;
+  border-color: #DB4D35
+}
+
+.btn-rechazar::after{
+  content: "\f071";
+  color: white;
+  margin-left: 2px;
+  font-family: "FontAwesome";    
+}
+
+.btn-soporte::after{
+  content: "\f15c";
+  color: white;
+  margin-left: 2px;
+  font-family: "FontAwesome";    
+}
+
+.btn-informe::after{
+  content: "\f15c";
+  color: white;
+  margin-left: 2px;
+  font-family: "FontAwesome";    
+}
+
+.btn-recibo{
+  background: #E0871E;
+  border: 1px solid #E0871E
+}
+
+.btn-recibo::after{
+  content: "\f573";
+  color: white;
+  margin-left: 2px;
+  font-family: "FontAwesome";    
+}
+
+.btn-firmado{
+  background: #239B23;
+  border: 1px solid #239B23
+}
+
+.btn-firmado::after{
+  content: "\f56f";
+  color: white;
+  margin-left: 2px;
+  font-family: "FontAwesome";    
+}
+
+.certificacion .certificacion-2 .btn-hide{
+  background: white;
+  border: 1px dashed #d48404;
+  position: relative;
+  width: 30px;
+  display: inline-flex;
+  overflow: hidden
+}
+
+.btn-hide input{
+  position: absolute;
+  right: 0;
+  top: 0;  
+  height: 100%;
+  opacity: 0;
+  cursor: pointer
+}
+
+.btn-hide::after{
+  content: "\f15c";
+  color: #d48404;
+  margin-left: 2px;
+  font-family: "FontAwesome";    
+}
