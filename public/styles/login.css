@@ -1,0 +1,225 @@
+@charset "UTF-8";
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:400,800&effect=3d-float");
+@import url("https://fonts.googleapis.com/css?family=Lato:400,400i,700");
+a {
+  text-decoration: none;
+}
+
+* {
+  font-family: "Lato";
+  font-weight: normal;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+h1 {
+  font-size: 28px;
+  font-weight: 600;
+  font-stretch: normal;
+  font-style: normal;
+  letter-spacing: normal;
+  color: black;
+}
+
+h2 {
+  font-size: 20px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  letter-spacing: normal;
+  color: black;
+}
+
+h3 {
+  font-size: 16px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  letter-spacing: normal;
+  color: black;
+}
+
+h4 {
+  font-size: 14px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  letter-spacing: normal;
+  color: black;
+}
+
+h5 {
+  font-size: 14px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  letter-spacing: normal;
+  color: black;
+}
+
+p {
+  font-size: 14px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  letter-spacing: normal;
+  color: black;
+}
+
+p.small {
+  font-size: 12px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  letter-spacing: normal;
+  color: black;
+}
+
+p.bold {
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  letter-spacing: normal;
+  color: black;
+}
+body, html {
+  position: relative;
+  height: 100%
+}
+
+body{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  background: rgba(75, 128, 95, 0.1);
+}
+
+body section {
+  width: 40%;
+  min-width: 300px;
+  background: white;
+  padding: 3%;
+  -webkit-box-shadow: 0px 0px 4px 0px rgba(0,0,0,0.74);
+  -moz-box-shadow: 0px 0px 4px 0px rgba(0,0,0,0.74);
+  box-shadow: 0px 0px 4px 0px rgba(0,0,0,0.74);
+  opacity: 0;
+  transition: all 3s
+}
+body section.visible {
+  opacity: 1
+}
+body section article {
+}
+body .login {
+  display: flex;
+  flex-wrap: wrap;
+}
+body .login-img{
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 40px;
+  }
+body .login-img img{
+  max-width: 180px
+}
+body .login .btns{
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 20px !important;
+  justify-content: center;
+  align-items: center;
+  }
+  body .login .btns .btn{
+  width: 100%;
+  border-radius: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  background: #718077
+  }
+body .login .btns .btn-login, body .login .btns .btn-login2{
+  background: #F58634;
+  color: white;
+  width: 100%;
+  height: 50px;
+  font-size: 20px;
+}
+body .login .btns .btn-login2{
+  margin-top: 40px
+}
+body .login .btns .btn-login:after{
+  content: "\f505";
+  color: white;
+  margin-left: 4px
+}
+body .login .btns .btn-login2:after{
+  content: "\f02c";
+  color: white;
+  margin-left: 4px
+}
+body .login h2{
+  text-align: center;
+  font-size: 32px;
+  font-weight: bold;
+  text-transform: uppercase;
+  width: 100%;  
+}
+body .login h4{
+  text-align: center;
+  font-size: 13px;
+  font-weight: normal;
+  width: 100%
+}
+body .login .login-form {
+  margin-top: 20px;
+  width: 100%
+
+}
+body .login .login-form .form-group {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 10px 0;
+  margin-bottom: 30px;
+}
+body .login .login-form .form-group label {
+  width: 100%;
+  color: #F58634;
+  font-size: 16px;
+  margin-bottom: 5px;
+}
+body .login .login-form .form-group label:before {
+  content: "\f007";
+  width: 12px;
+  height: 12px;
+  font-size: 19px;
+  font-family: FontAwesome;
+  font-weight: 200;
+  position: relative;
+  color: #F58634;
+  margin-right: 10px;
+}
+body .login .login-form .form-group:nth-child(2) label:before {
+  content: "\f084";
+}
+body .login .login-form .form-group input {
+  width: 100%;
+  height: 30px;
+  border-radius: 5px;
+  border: 1px solid #718077
+}
+
+body footer {
+  position: absolute;
+  bottom: 20px;
+  margin: auto;
+}
+body.swal2-height-auto{
+  height: 100% !important;
+}

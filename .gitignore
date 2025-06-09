@@ -1,0 +1,24 @@
+# Archivos y carpetas sensibles
+public/admin/includes/dsn_open.php
+public/includes/dsn_open.php
+.env
+
+# Datos y archivos generados
+public/soportes/
+public/trazabilidad/
+public/.DS_Store
+mysql-data/
+public/images/uploads/
+
+# Dependencias de Composer
+public/vendor/
+
+# Archivos y carpetas de Docker
+docker-compose.override.yml
+*.log
+
+# Archivos del sistema y del IDE
+*.swp
+*.swo
+.idea/
+.vscode/

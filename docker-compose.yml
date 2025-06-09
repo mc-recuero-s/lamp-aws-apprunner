@@ -12,13 +12,8 @@ services:
     image: mariadb:latest
     expose:
       - "3306"
-    environment:
-      MYSQL_DATABASE: db_ejm1
-      MYSQL_USER: user1
-      MYSQL_PASSWORD: user1.pa55
-      MYSQL_ROOT_PASSWORD: root.pa55
     volumes:
-      - ./base_datos:/docker-entrypoint-initdb.d
+      - ./database:/docker-entrypoint-initdb.d
       - ./mysql-data:/var/lib/mysql
   phpmyadmin:
     image: phpmyadmin
@@ -26,7 +21,5 @@ services:
       - db
     ports:
       - "8080:80"
-    environment:
-      MYSQL_USER: user1
-      MYSQL_PASSWORD: user1.pa55
-      MYSQL_ROOT_PASSWORD: root.pa55
+    env_file:
+      - .env
